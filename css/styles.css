@@ -477,6 +477,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-top: 16px;
 }
 
 .portfolio-list h3 {
@@ -539,6 +540,7 @@ ul {
     margin-right: 80px;
 }
 
+
 .title-subscribe {
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
@@ -546,8 +548,23 @@ ul {
     letter-spacing: 2%;
 }
 
+.form-footer {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
+
 .label-subscribe {
     color: WHITE;
+}
+
+.email {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px;
+    border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(46, 47, 66, 1);
 }
 
 .subscribe-button {
@@ -557,8 +574,16 @@ ul {
         24px
         8px
         24px;
-        margin-left: 24px;
         gap: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.benefits-subscribe-items {
+    background-color: IRIS;
+    fill: #FFFFFF;
 }
 
 footer a {

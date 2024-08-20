@@ -535,7 +535,13 @@ ul {
     margin-right: 120px;
 }
 
+.footer-benefits-block {
+    margin-right: 80px;
+}
 
+.label-subscribe {
+    color: WHITE;
+}
 
 footer a {
     display: inline-block;

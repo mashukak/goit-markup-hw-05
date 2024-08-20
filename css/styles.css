@@ -545,13 +545,14 @@ ul {
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    font-weight: 500;
 }
 
 .form-footer {
     display: flex;
     gap: 24px;
-    margin-top: 16px;
 }
 
 .label-subscribe {
@@ -565,6 +566,7 @@ ul {
     border: 1px;
     border-color: rgba(255, 255, 255, 1);
     background-color: rgba(46, 47, 66, 1);
+    
 }
 
 .subscribe-button {

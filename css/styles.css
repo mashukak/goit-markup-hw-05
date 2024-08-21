@@ -563,24 +563,25 @@ ul {
     width: 264px;
     height: 40px;
     border-radius: 4px;
-    border: 1px;
-    border-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ffffff;
     background-color: rgba(46, 47, 66, 1);
-    
+}
+
+.email:placeholder-shown {
+ padding-left: 16px;
+ color: #FFFFFF;
 }
 
 .subscribe-button {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(77, 90, 229, 1);
-    padding: 8px
-        24px
-        8px
-        24px;
-        gap: 16px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    padding: 8px 24px 8px 24px;
+    gap: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:4px ;
 }
 
 .benefits-subscribe-items {

@@ -476,14 +476,30 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="button-cancel">
+        <button class="button-cancel" type="button">
           <svg class="svg-close" width="8" height="8">
-            <use href="./images/BG.jpg#icon-close"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <h2 class="title-modal">
           Leave your contacts and we will call you back
         </h2>
+        <label for="user-privacy"
+          >Name
+          <input id="user-privacy" />
+        </label>
+        <label
+          >Phone
+          <input />
+        </label>
+        <label
+          >Email
+          <input />
+        </label>
+        <label
+          >Comment
+          <textarea placeholder="Text input"></textarea>
+        </label>
       </div>
     </div>
   </body>

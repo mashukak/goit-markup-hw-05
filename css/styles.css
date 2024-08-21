@@ -728,11 +728,22 @@ p {
         margin-bottom: 8px;
         border: 1px solid rgba(46, 47, 66, 0.4)
 }
+
+.modal-form-input:focus-within{
+    border-color: rgba(77, 90, 229, 1);
+    
+}
  
 .modal-icons {
     position: absolute;
-    top: 14px;
+    top: 50%;
     left: 19px;
+    transform: translateY(-50%);
+    fill: rgba(46, 47, 66, 1);
+}
+
+.modal-form-input:focus .modal-icons{
+    fill: #4D5AE5;
 }
 
 .form-textarea{
@@ -744,6 +755,3 @@ p {
     border-radius: 4px;
 }
 
-.modal-form-label:focus-within{
-    border-color: rgba(77, 90, 229, 1)
-}

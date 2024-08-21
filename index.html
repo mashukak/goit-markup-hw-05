@@ -487,27 +487,29 @@
           </p>
           <form>
             <div>
-              <label for="user-privacy"
-                >Name
-                <div class="border-user">
-                  <svg width="12" height="12">
-                    <use href="./images/icons.svg#icon-user"></use>
-                  </svg>
-                  <input id="user-privacy" />
-                </div>
-              </label>
-              <label
-                >Phone
-                <input />
-              </label>
-              <label
-                >Email
-                <input />
-              </label>
-              <label
-                >Comment
-                <textarea placeholder="Text input"></textarea>
-              </label>
+              <label class="modal-form-label" for="user-privacy">Name </label>
+              <div class="block-input">
+                <svg class="modal-icons" width="12" height="12">
+                  <use href="./images/icons.svg#icon-user"></use>
+                </svg>
+                <input class="modal-form-input" id="user-privacy" />
+              </div>
+              <label class="modal-form-label" for="tel">Phone</label>
+              <div class="block-input">
+                <svg class="modal-icons" width="12" height="12">
+                  <use href="./images/icons.svg#icon-tel"></use>
+                </svg>
+                <input class="modal-form-input" type="tel" id="tel" />
+              </div>
+              <label class="modal-form-label" for="email">Email</label>
+              <div class="block-input">
+                <svg class="modal-icons" width="12" height="12">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                <input class="modal-form-input" type="email" id="email" />
+              </div>
+              <label class="modal-form-label">Comment</label>
+              <textarea placeholder="Text input"></textarea>
             </div>
           </form>
         </div>

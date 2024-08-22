@@ -732,6 +732,7 @@ p {
         margin-bottom: 8px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         transition: border-color 300ms linear;
+        outline: transparent;
 }
 
 .modal-form-input:focus{
@@ -747,8 +748,8 @@ p {
     transition: fill 300ms linear;
 }
 
-.modal-form-input:focus + .modal-icons{
-    fill: #4D5AE5;
+.modal-form-input:focus + .modal-icons {
+    fill; rgba(77, 90, 229, 1);
 }
 
 .form-textarea{

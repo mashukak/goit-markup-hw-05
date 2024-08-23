@@ -633,6 +633,10 @@ p {
 }
 
 .modal {
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
     background-color: rgba(252, 252, 252, 1);
     position: absolute;
     left: 50%;
@@ -697,10 +701,7 @@ p {
 }
 
 .modal-div-items {
-    padding-top: 72px;
-        padding-right: 24px;
-        padding-bottom: 24px;
-        padding-left: 24px;
+    
     }
         
 .svg-close {

@@ -707,10 +707,11 @@ p {
 .modal-form-label {
     display: block;
     font-size: 12px;
-    line-height: 14px;
     letter-spacing: 0.04em;
     text-align: left;
     margin-bottom: 4px;
+    line-height: 1.17;
+    color: #8e8f99;
 }
 
 .block-input {

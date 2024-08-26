@@ -808,7 +808,9 @@ border-color: #4D5AE5;
 
 .checkbox:checked + .privacy-text > .custom-checkbox{
     border-color: transparent;
-    background-color: #4d5ae5;
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;;
 }
 
 .span-privacy{

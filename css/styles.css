@@ -861,4 +861,7 @@ border-color: #4D5AE5;
     min-width: 169px;
     border: none;
     display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }

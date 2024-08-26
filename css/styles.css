@@ -751,6 +751,10 @@ p {
     fill: rgba(77, 90, 229, 1);
 }
 
+.form-wraper-comment {
+    margin-bottom: 16px;
+}
+
 .form-textarea{
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 100%;
